@@ -34,7 +34,7 @@ export default class GraficoTemperatura extends Component{
 
 get_chart=()=>{
 
-fetch("https://api.thingspeak.com/channels/1595751/feeds.json?results=" + x, {
+fetch("YourThingSpeakAPI" + x, {
   method: 'GET',
   headers: {Accept: 'application/json','Content-Type': 'application/json',},
 })
