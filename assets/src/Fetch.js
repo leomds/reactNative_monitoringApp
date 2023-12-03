@@ -45,7 +45,7 @@ export default class Linedchart extends Component {
 
   get_chart=()=>{
 
-    fetch("https://api.thingspeak.com/channels/1646651/feeds.json?results=6", {
+    fetch("YourThingSpeakAPI", {
       method: 'GET',
       headers: {
         Accept: 'application/json',
